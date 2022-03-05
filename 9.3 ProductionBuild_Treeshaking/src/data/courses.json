@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Javascript Ninja",
+    "price": 9.99,
+    "description": "Get updated of the all the things around javascript. This course forms the foundation of all javascript faameworks.",
+    "imageUrl": "https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png",
+    "author": "Max"
+  },
+  {
+    "title": "CSS Ninja",
+    "price": 11.5,
+    "description": "Get all the expertise required to build some awesome websites. In this course we go though the core concepts of css , and also advanced concepts such as animation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    "author": "Jack"
+  },
+  {
+    "title": "React Ninja",
+    "price": 15.5,
+    "description": "Learn how to build single page applications using one of the most popular front end framework - React. We will see how to build an either project and deploy to AWS cloud.",
+    "imageUrl": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
+    "author": "Alex"
+  }
+]

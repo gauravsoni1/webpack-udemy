@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "type": "bakery",
+    "title": "Croissant",
+    "imageName": "croissant.jpeg",
+    "description": "Check out all of the various types of croissants we have to offer !!."
+  },
+  {
+    "id": 2,
+    "type": "bakery",
+    "title": "Cakes",
+    "imageName": "cake.jpeg",
+    "description": "Cakes for all your ocassions !!."
+  },
+  {
+    "id": 3,
+    "type": "bakery",
+    "title": "Wedding Cakes",
+    "imageName": "cake.jpeg",
+    "description": "Cakes for all your ocassions !!."
+  }
+]

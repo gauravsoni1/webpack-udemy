@@ -1,0 +1,150 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #eee;
+}
+
+.header {
+  height: 50vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(123, 90, 50, 0.036),
+      rgba(114, 114, 110, 0.324)
+    ),
+    url("./assets/bakery-wallpaper.jpeg");
+
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+/* Promo section */
+
+.promo {
+  background: rgb(242, 241, 241);
+  padding: 100px;
+}
+.promo-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.promo-container img {
+  border-radius: 20px;
+  max-height: 400px;
+}
+
+.promo-container .promo-message {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+
+/* New Arrival section  */
+
+.new-arrival {
+  padding: 50px 100px 50px 100px;
+}
+
+.new-arrival h2 {
+  color: red;
+}
+
+.cakes {
+  display: flex;
+}
+
+.cakes-container {
+  max-height: 200px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  border: 1px dashed lightgrey;
+  padding: 5px;
+	margin: 10px;
+}
+
+.cakes-container img {
+  max-height: 100px;
+  width: 150px;
+}
+
+.brand-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.brand {
+  font-size: 20px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 30px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+  font-size: 14px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="brand-box">
+        <span class="brand">Home Bakers</span>
+      </div>
+
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Fresh Bakery Products</span>
+          <span class="heading-primary-sub"
+            >Home grown | Oraginc | Variety</span
+          >
+        </h1>
+        <a href="products.html" class="btn btn-white btn-animated"
+          >View Our Products</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="promo">
+        <div class="promo-container">
+          <img src="./assets/cake.jpeg" />
+          <div class="promo-message">
+            <h2>Celebrations !</h2>
+            <p>Cakes for make every moment special ...</p>
+          </div>
+        </div>
+      </section>
+      <section class="new-arrival">
+        <h2>New Arrivals</h2>
+        <select id="categorySelect">
+          <option value="all" label="All" selected="All"></option>
+          <option value="cake" label="Cake"></option>
+          <option value="cupcake" label="Cup Cake"></option>
+          <option value="croissant" label="Croissant"></option>
+        </select>
+        <div class="cakes" id="cakesContainer"></div>
+      </section>
+    </main>
+  </body>
+</html>

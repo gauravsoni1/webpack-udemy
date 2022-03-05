@@ -1,0 +1,26 @@
+[
+  {
+    "imgName": "lavaCake.jpeg",
+    "title": "Choco Lava Cake",
+    "category": "cake",
+    "price": "2 USD"
+  },
+  {
+    "imgName": "pinkFloral.jpeg",
+    "title": "Pink Flora cake",
+    "category": "cake",
+    "price": "30 USD"
+  },
+  {
+    "imgName": "rainbowCupCake.jpeg",
+    "title": "Rainbow Cup Cake",
+    "category": "cupcake",
+    "price": "1.5 USD"
+  },
+  {
+    "imgName": "chocolateCorissant.jpeg",
+    "title": "Choco Croissant",
+    "category": "croissant",
+    "price": "1 USD"
+  }
+]

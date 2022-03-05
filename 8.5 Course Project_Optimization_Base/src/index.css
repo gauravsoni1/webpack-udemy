@@ -1,0 +1,63 @@
+@import url('./assets/css/font-awesome.min.css');
+
+.icon-background {
+  background: rgb(151, 68, 240);
+  background: radial-gradient(
+    circle,
+    rgba(151, 68, 240, 1) 0%,
+    rgba(84, 66, 105, 1) 100%
+  );
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-background i {
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.menu-header {
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0px;
+}
+
+.page-header {
+  height: 70px;
+  color: white;
+  background: rgb(81, 6, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 6, 145, 1) 0%,
+    rgba(52, 178, 204, 1) 100%
+  );
+}
+
+body {
+  background: rgb(231, 218, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 218, 245, 1) 0%,
+    rgba(153, 146, 207, 1) 49%,
+    rgba(198, 235, 242, 1) 100%
+  );
+}
+
+.footer-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    linear-gradient(127.36deg, #6a11cb 31.85%, #667da5 108.53%);
+}
+
+/* Course css  */
+
+.course-banner h1 {
+  color: var(--bs-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
