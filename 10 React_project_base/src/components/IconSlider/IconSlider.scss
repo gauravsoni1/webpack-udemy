@@ -1,0 +1,39 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  // background: grey;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.list-title {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.movies-container {
+  max-width: 100%;
+  max-height: 200px;
+  display: flex;
+  overflow-x: scroll;
+  img {
+    max-width: 300px;
+    margin-right: 10px;
+  }
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 1px;
+}
+
+// *::-webkit-scrollbar-track {
+//   background: orange;
+// }
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 56, 56);
+  border-radius: 20px;
+  border: 1px solid white;
+}

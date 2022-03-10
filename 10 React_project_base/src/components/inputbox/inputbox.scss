@@ -1,0 +1,26 @@
+.textinput-container {
+  display: flex;
+  flex-direction: column;
+  .input-error {
+    margin-top: 5px;
+    align-self: flex-start;
+    color: rgb(250, 63, 63);
+    font-size: 1rem;
+  }
+  svg{
+      margin-right: 5px;
+  }
+  margin: 10px 0px;
+}
+
+input[type="text"] {
+  background-color: rgb(96, 95, 95);
+  outline: none;
+  color: rgb(206, 205, 205);
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  &::placeholder {
+    color: rgb(206, 205, 205);
+  }
+}
