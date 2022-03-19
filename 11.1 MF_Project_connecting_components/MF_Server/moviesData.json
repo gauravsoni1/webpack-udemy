@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Avengers",
+    "imageUrl": "avengers.jpeg",
+    "description": "The Asgardian Loki encounters the Other, the leader of an extraterrestrial race known as the Chitauri. In exchange for retrieving the Tesseract,[N 2] a powerful energy source of unknown potential, the Other promises Loki an army with which he can subjugate Earth. Nick Fury, director of the espionage agency S.H.I.E.L.D., arrives at a remote research facility, where physicist Dr. Erik Selvig is leading a team experimenting on the Tesseract."
+  },
+  {
+    "id": 2,
+    "name": "Black Panther",
+    "imageUrl": "blackpanther.jpg",
+    "description": "Thousands of years ago, five African tribes war over a meteorite containing the metal vibranium. One warrior ingests a heart-shaped herb affected by the metal and gains superhuman abilities, becoming the first Black Panther. He unites all but the Jabari Tribe to form the nation of Wakanda. Over centuries, the Wakandans use the vibranium to develop advanced technology and isolate themselves from the world by posing as a Third World country."
+  },
+  {
+    "id": 3,
+    "name": "Black Widow",
+    "imageUrl": "blackwidow.jpg",
+    "description": "In 1995, super soldier Alexei Shostakov and Black Widow Melina Vostokoff work as Russian undercover agents, posing as a family in Ohio with Natasha Romanoff and Yelena Belova as their daughters. They steal S.H.I.E.L.D. intel and escape to Cuba where their boss, General Dreykov, has Romanoff and Belova taken to the Red Room for training. In the following decades, Shostakov is imprisoned in Russia while Romanoff and Belova become successful, dangerous assassins."
+
+  },
+  {
+    "id": 4,
+    "name": "Captain America",
+    "imageUrl": "captainamerica.jpg",
+    "description": "In New York City, Steve Rogers is rejected for World War II military recruitment due to his various health and physical problems. While attending an exhibition of future technologies with his best friend, Sgt. James Bucky Barnes, Rogers again attempts to enlist. Overhearing Rogers' conversation with Barnes about representing his country in the war, Dr. Abraham Erskine allows Rogers to enlist."
+  },
+  {
+    "id": 5,
+    "name": "Doctor Strange",
+    "imageUrl": "doctorstrange.jpeg",
+    "description": "In New York City, Dr. Stephen Strange, a wealthy, acclaimed, and arrogant neurosurgeon, severely injures his hands in a car crash while en route to a speaking conference, leaving him permanently unable to operate. Fellow surgeon Christine Palmer tries to help him move on, but Strange vainly pursues experimental surgeries to heal his hands."
+  },
+  {
+    "id": 6,
+    "name": "Ethernals",
+    "imageUrl": "ethernals.jpg",
+    "description": "In the present day, Sersi and Sprite live together in London. After Sersi's partner Ikaris left her centuries earlier, she is now in a relationship with human Dane Whitman who works at the Natural History Museum. The trio are attacked by the Deviant Kro, with Ikaris arriving and chasing the creature away. "
+  },
+  {
+    "id": 7,
+    "name": "Iron Man",
+    "imageUrl": "ironman.jpg",
+    "description": "In Russia, the media covers Tony Stark's disclosure of his identity as Iron Man. Ivan Vanko, whose father, Anton Vanko, a former Stark Industries employee, has just died, sees this and begins building a miniature arc reactor similar to Stark's. Six months later,[N 2] Stark is a superstar and uses his Iron Man suit for peaceful means, resisting government pressure to sell his designs."
+  },
+  {
+    "id": 8,
+    "name": "Spiderman",
+    "imageUrl": "spiderman.jpeg",
+    "description": "Parker and his classmates travel to Venice, Italy, where the Water Elemental attacks. Parker helps protect his classmates, while Beck arrives and defeats the creature. Fury meets with Parker and gives him Stark's glasses, which were meant for his successor. "
+  },
+  {
+    "id": 9,
+    "name": "Thor",
+    "imageUrl": "thor.jpg",
+    "description": "In the present,[N 2] Odin's son Thor prepares to ascend to the throne of Asgard, but is interrupted when Frost Giants, secretly allowed in by his brother Loki, attempt to retrieve the Casket. Against Odin's order, Thor travels to Jotunheim to confront Laufey, accompanied by Loki, childhood friend Sif and the Warriors Three: Volstagg, Fandral, and Hogun. "
+  },
+  {
+    "id": 10,
+    "name": "Venom",
+    "imageUrl": "venom.jpg",
+    "description": "While exploring space for new habitable worlds, a probe belonging to the bio-engineering corporation Life Foundation discovers a comet covered in symbiotic lifeforms. The probe returns to Earth with four samples, but one escapes and causes the ship to crash in Malaysia."
+  }
+]

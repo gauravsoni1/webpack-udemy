@@ -1,0 +1,70 @@
+.seat-selection-container {
+  display: flex;
+  padding: 20px;
+  .movie-title {
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .p-20 {
+    padding: 20px;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  .mt-2 {
+    margin-top: 20px;
+  }
+
+  img {
+    max-height: 300px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    display: flex;
+  }
+  .full-width {
+    width: 100%;
+  }
+
+  .screen-select-container {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    .seats-container {
+      display: flex;
+      .seat {
+        width: 10px;
+        height: 10px;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid black;
+        &:hover {
+          cursor: pointer;
+          background: rgb(228, 249, 228);
+        }
+      }
+      .seat.selected {
+        background: lightgreen;
+      }
+    }
+
+    .screen {
+      background: lightgrey;
+      text-align: center;
+      width: 300px;
+      height: 15px;
+      border: 1px solid grey;
+    }
+  }
+}
