@@ -2,7 +2,7 @@ import React from "react";
 import "./MovieCard.scss";
 import Typography from "../Typography/Typography.jsx";
 
-const MovieCard = ({ title = "Avenger", imageUrl }) => {
+const MovieCard = ({ title = "Avenger 2", imageUrl }) => {
   let imgFinalUrl;
   if (imageUrl) {
     imgFinalUrl = `http://localhost:5555/images/${imageUrl}`;

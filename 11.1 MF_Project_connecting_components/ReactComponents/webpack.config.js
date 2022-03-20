@@ -22,8 +22,9 @@ module.exports = {
       name: "components",
       filename: "remoteEntry.js",
       exposes: {
+        "./MovieCard": "./src/components/MovieCard/MovieCard.jsx",
         "./BuyButton": "./src/components/Button/BuyButton/BuyButton.jsx",
-        "./SimpleButton": "./src/components/Button/SimpleButton/SimpleButton.jsx",
+        "./Typography": "./src/components/Typography/Typography.jsx"
       },
     }),
     new MiniCssExtractPlugin(),

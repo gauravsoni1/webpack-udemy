@@ -15,25 +15,9 @@ module.exports = {
       directory: path.resolve(__dirname, "dist"),
     },
     open: true,
-    port: 3000,
+    port: 9000,
+    historyApiFallback: true,
   },
-  plugins: [
-    new ModuleFederationPlugin({
-      name: "home",
-      filename: "remoteEntry.js",
-      remotes: {
-        components: "components@http://localhost:3002/remoteEntry.js",
-      },
-      exposes: {
-        "./HomePage": "./src/components/HomeContent/HomeContent.jsx",
-      },
-    }),
-    new MiniCssExtractPlugin(),
-    new HtmlWebpackPlugin({
-      template: "./src/index.html",
-      filename: "index.html",
-    }),
-  ],
   module: {
     rules: [
       {
@@ -70,11 +54,33 @@ module.exports = {
           "sass-loader",
         ],
       },
+      {
+        test: /\.(png|jpeg|gif|jpg)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.webp$/i,
+        use: ["file-loader", "webp-loader"],
+      },
     ],
   },
+  plugins: [
+    new ModuleFederationPlugin({
+      name: "movieapp",
+      filename: "remoteEntry.js",
+      remotes: {
+        homepage: "home@http://localhost:3000/remoteEntry.js",
+      },
+    }),
+    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "index.html",
+    }),
+  ],
   optimization: {
     splitChunks: {
-      chunks: "async",
+      chunks: "all",
     },
   },
 };
