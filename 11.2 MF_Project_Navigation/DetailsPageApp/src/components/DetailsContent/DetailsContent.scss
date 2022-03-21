@@ -1,0 +1,42 @@
+.details-content-container {
+  padding: 20px;
+  .ml-2 {
+    margin-left: 20px;
+  }
+
+  .mb-2{
+    margin-bottom: 20px;
+  }
+
+  .details-content-row {
+    display: flex;
+  }
+
+  img {
+    max-height: 300px;
+  }
+
+  hr {
+    border: 1px dashed;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+
+  .details-content-book-movie{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .details-content-column {
+    display: flex;
+    flex-direction: column;    
+  }
+
+  .movie-title{
+    margin-bottom: 0px;
+    color: blue;
+  }
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.home-content-container{
+  display: flex;
+  flex-direction: column;  
+}
+
+.movies-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.card {
+  margin: 20px;
+  border: 1px dashed grey;
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  align-items: center;
+  img {
+    border-radius: 10px;
+    // max-width: 100%;
+    width: 150px;
+  }
+  span {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
