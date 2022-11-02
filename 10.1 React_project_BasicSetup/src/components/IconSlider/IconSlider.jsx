@@ -22,18 +22,23 @@ const movies = [
 function IconSlider(props) {
   const randomMovie = (items) => {
     const movList = [];
-    for (let i = 0; i < items; i++) {
-      const counter = Math.round(Math.random() * 15);
-      const key = Date.now() * Math.random();
-      const mov = (
-        <img
-          key={key}
-          src={require(`../../assets/${movies[counter]}`)}
-          alt=""
-        />
-      );
-      movList.push(mov);
+    try {
+      for (let i = 0; i < items; i++) {
+        const counter = Math.round(Math.random() * 15);
+        const key = Date.now() * Math.random();
+        const mov = (
+          <img
+            key={key}
+            src={require(`../../assets/${movies[counter]}`)}
+            alt=""
+          />
+        );
+        movList.push(mov);
+      }
+    } catch (error) {
+      console.log(error);
     }
+
     return movList;
   };
 

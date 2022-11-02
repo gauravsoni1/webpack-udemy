@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.scss';
+import './Button.scss';
 
 function Button(props) {
   return <button {...props}>{props.title}</button>;

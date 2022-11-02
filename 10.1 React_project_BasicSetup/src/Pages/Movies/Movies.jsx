@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
-import Button from '../../components/button/Button.jsx';
+import { useHistory } from 'react-router-dom';
+import Button from '../../components/Button/Button.jsx';
 import IconSlider from '../../components/IconSlider/IconSlider.jsx';
 import './Movies.scss';
-import { useHistory } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 function Movies() {
   const history = useHistory();

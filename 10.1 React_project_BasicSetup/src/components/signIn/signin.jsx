@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../button/Button.jsx';
+import Button from '../Button/Button.jsx';
 // import Header from '../../components/header/header';
 import Inputbox from '../inputbox/inputbox.jsx';
 import './signin.scss';

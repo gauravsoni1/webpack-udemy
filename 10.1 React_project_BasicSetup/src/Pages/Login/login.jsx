@@ -2,7 +2,7 @@ import React from 'react';
 import './login.scss';
 import { useHistory } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import Button from '../../components/button/Button.jsx';
+import Button from '../../components/Button/Button.jsx';
 import Signin from '../../components/signIn/signin.jsx';
 
 function Login() {
